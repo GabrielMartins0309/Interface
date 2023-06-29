@@ -5,7 +5,7 @@ public class Invoice {
 	private Double tax;
 
 	public Invoice() {
-		
+
 	}
 
 	public Invoice(Double basicPayment, Double tax) {
@@ -29,7 +29,7 @@ public class Invoice {
 	public void setTax(Double tax) {
 		this.tax = tax;
 	}
-	
+
 	public double getTotalPayment() {
 		return getBasicPayment() + getTax();
 	}
